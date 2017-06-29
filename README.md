@@ -1,3 +1,3 @@
 # fatdogsthatwontmove
 # BURK BURK
-![/burk.png]()
+![https://raw.githubusercontent.com/ter0/fatdogsthatwontmove/master/public/burk.png]()
