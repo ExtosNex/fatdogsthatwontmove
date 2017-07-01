@@ -1,12 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>burk burk</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   </head>
   <body>
-  <!-- NERD -->
-  <!-- https://github.com/ter0/fatdogsthatwontmove -->
-  <p style='text-align:center;'><img alt='burk burk' src='/burk.png'/></p>
+    <img id="burk" src="https://fatdogsthatwontmove.com/burk.png">
+    <script>
+      $(document).mousemove(function(e){
+      $("#burk").css({left:e.pageX, top:e.pageY});
+      });
+    </script>
+    <style>
+    html{
+    cursor:none;
+    ,auto
+    }
+    #burk{
+    position:absolute;
+    }
+  </style>
   </body>
 </html>
